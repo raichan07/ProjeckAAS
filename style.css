@@ -1,0 +1,326 @@
+*{
+    scroll-behavior: smooth;
+    font-family: 'Be Vietnam Pro';
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    animation: fadeInDown .8s;
+  }
+  
+  nav .header_links {
+    float: right;
+  }
+  
+  nav .header_links ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  nav .header_links ul li, section.main ul li {
+    list-style-type: none;
+  }
+  
+  nav .header_links ul li a {
+    outline: none;
+    text-decoration: none;
+    color: #a6a8b8;
+    padding: 5px 12px;
+    transition: 0.3s all;
+    font-size: 15px;
+  }
+  
+  nav .header_links .nav_links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav .header_links .nav_links li {
+    display: inline;
+    margin-left: 10px;
+  }
+  
+  nav .header_links .nav_links li a {
+    text-decoration: none;
+    color: #a6a8b8;
+    transition: 0.3s all;
+    width: 84px;
+    height: 21px;
+    font-family: 'Epilogue' !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  
+  li a:hover::after {
+    width: 30%;
+    left: 0;
+  }
+  
+  nav .header_links ul li a:hover {
+    color: black;
+    background-color: transparent;
+    border-bottom: 2px solid blue;
+  }
+  
+  nav .header_logo {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; 
+  }
+  
+  nav .header_logo img {
+    width: 69.45px;
+    height: 69.45px;
+    border-radius: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  
+  nav .header_logo .tag {
+    margin-left: 10px; 
+    font-size: 20px;
+  }
+  
+  nav.tag {
+    letter-spacing: 3px;
+    padding-right: 20px;
+    padding-left: 50px;
+    font-size: 20px;
+  }
+  
+  .tag{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20.5355px;
+  }
+    
+  .text-utama {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 41.4px;
+    color: #919191;
+    margin-bottom: 10px;
+  }
+  
+  .black-text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 88.32px;
+    text-transform: capitalize;
+    color: #181F1C;
+    margin-top: 5px;
+  }
+
+section {
+    padding: 10px 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gap-56 {
+    display: flex;
+    flex-direction: column;
+    gap:56px;
+}
+
+.gap-25{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+
+.tx-blue {
+    color: #1F3984;
+}
+
+.btn {
+    width: Hug (301px);
+    height: Hug (68px);
+    border-radius: 10px;
+    padding: 20px 32px;
+}
+
+.btn-blue {
+    background-color: #1F3984;
+    color:#ffff;
+}
+
+.btn-small {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19.32px;
+}
+
+.btn-medium {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27.6px;
+}
+
+.img-masjid > img {
+    position: relative;
+    height: 407px;
+    width: 407px;
+}
+
+.img-masjid-logo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-masjid-logo > img {
+    position: absolute;
+    top: -20px;
+    right: 20px;
+    height: 57px;
+    width: 57px;
+    z-index: 999999;
+}
+
+.group-icon {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    gap: 25px;
+    left: -90px;
+}
+
+.group-icon > .grid {
+    border-radius: 15px;
+    padding: 16px 15px;
+    gap: 12px;
+    background: #FFFFFF;
+    box-shadow: 0.974474px 7.7958px 58.4685px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 209px;
+}
+
+.group-icon > .grid > img {
+    height: 45px;
+    width: 45px;
+}
+
+.group-icon > .grid > h3 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 20.27px;
+    line-height: 20.64px;
+}
+
+/* .img-masjid > img {
+    position: relative;
+    height: 407px;
+    width: 407px;
+    z-index: -99999999;
+    margin-top: -30px;
+    padding-bottom: 10px;
+}
+
+.img-masjid-logo {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.img-masjid-logo > img {
+    height: 57px;
+    width: 57px;
+} */
+
+.margin-0{
+    margin: 0px !important;
+}
+
+.margin-top-15{
+    margin-top: 15px !important;
+}
+
+.align-self-center {
+    align-self: center;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.icon-first {
+    gap: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.slider-wrapper {
+	position: relative;
+	margin: 0 auto;
+}
+
+.slider {
+	display: flex;
+    aspect-ratio: 15 / 4;
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	scroll-behavior: smooth;
+	box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+	border-radius: 0.5rem;
+	-ms-overflow-style: none; 
+	scrollbar-width: none; 
+}
+
+.slider::-webkit-scrollbar {
+	display: none;
+}
+
+.slider img {
+	flex: 1 0 100%;
+	scroll-snap-align: start;
+	object-fit: cover;
+}
+
+.slider-nav {
+	display: flex;
+	column-gap: 1rem;
+	position: absolute;
+	bottom: 1.25rem;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1;
+}
+
+.slider-nav a {
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	background-color: #fff;
+	opacity: 0.75;
+	transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+	opacity: 1;
+}
+
+.gap-77 {
+    gap: 77px;
+}
+
+.flex-column {
+    flex-direction: column !important;
+}
